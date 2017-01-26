@@ -1,0 +1,3 @@
+[submodule "kicad/libraries/d1_mini_kicad"]
+	path = kicad/libraries/d1_mini_kicad
+	url = https://github.com/jerome-labidurie/d1_mini_kicad.git
