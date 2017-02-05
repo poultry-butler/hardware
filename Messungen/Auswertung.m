@@ -16,6 +16,10 @@ if(strcmp('Messung2.csv',file))
     plot(time,voltage,'.')
     xlabel('Time')
     ylabel('Battery Voltage (V)')
+    text(0.05,0.9,['Voltage min-max: ',num2str(min(voltage),4),' - ',...
+        num2str(max(voltage),4),' V'],'units','normalized', 'VerticalAlignment', 'Top');
+    
+    
     subplot(2,1,2)
     plot(time,current*1000,'.','color','r')
     xlabel('Time')
@@ -27,7 +31,7 @@ if(strcmp('Messung2.csv',file))
     
     text(0.05,0.9,['Energy: ',num2str(energy,4),' Wh', char(10)...
     'Current max: ',num2str(max(current),4),' A'],'units','normalized', 'VerticalAlignment', 'Top');
-
+    
     if(bplot)
     print(figure(1),'-dpng',['./figures/', file(1:8),'','.png'],'-r500');
     end
