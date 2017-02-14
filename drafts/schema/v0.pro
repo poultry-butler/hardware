@@ -1,4 +1,4 @@
-update=Mon 13 Feb 2017 22:51:22 CET
+update=Tue 14 Feb 2017 19:21:52 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -62,13 +72,5 @@ LibName30=libraries/d1_mini_kicad/library/wemos_mini
 LibName31=libraries/tle4202b
 LibName32=libraries/n9505-step-down
 LibName33=libraries/h-bridge-vhn5180a-e
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName34=libraries/SI1551DL
+LibName35=libraries/bat54s
