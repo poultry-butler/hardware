@@ -43,7 +43,9 @@ eagle.epf
 *.lck
 
 
-.dcm
-.bak
-.bck
+*.dcm
+*.bak
+*.bck
+*.kicad_pcb-bak
+*-cache.lib
 
