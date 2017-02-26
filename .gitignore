@@ -48,4 +48,4 @@ eagle.epf
 *.bck
 *.kicad_pcb-bak
 *-cache.lib
-
+*.fcstd1
