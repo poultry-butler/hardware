@@ -25,7 +25,6 @@ LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
-LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wemos_mini
@@ -34,6 +33,7 @@ LIBS:n9505-step-down
 LIBS:h-bridge-vhn5180a-e
 LIBS:SI1551DL
 LIBS:bat54s
+LIBS:v0-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
