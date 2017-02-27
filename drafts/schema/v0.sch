@@ -139,9 +139,9 @@ F 3 "" H 8850 1850 50  0000 C CNN
 $EndComp
 Text Label 1050 7100 2    60   ~ 0
 BATT+
-Text Label 2950 7550 2    60   ~ 0
+Text Label 2950 7150 2    60   ~ 0
 SCL
-Text Label 2950 7450 2    60   ~ 0
+Text Label 2950 7250 2    60   ~ 0
 SDA
 Text Label 2100 7350 2    60   ~ 0
 SWITCH_A
@@ -204,9 +204,9 @@ F 3 "" H 6100 7000 50  0000 C CNN
 $EndComp
 Text Label 1050 7200 2    60   ~ 0
 BATT-
-Text Label 2950 7250 2    60   ~ 0
+Text Label 2950 7450 2    60   ~ 0
 GND
-Text Label 2950 7150 2    60   ~ 0
+Text Label 2950 7550 2    60   ~ 0
 SER_3V3
 Text Label 1050 7500 2    60   ~ 0
 MOT_B
@@ -223,7 +223,7 @@ L CONN_01X05 P1
 U 1 1 58A20256
 P 1250 7300
 F 0 "P1" H 1250 7600 50  0000 C CNN
-F 1 "CONN_BATT/SW" V 1350 7300 50  0000 C CNN
+F 1 "CONN_BATT/MOT" V 1350 7300 50  0000 C CNN
 F 2 "horizontal-cable-lentry-1317:SIP-5_1317" H 1250 7300 50  0001 C CNN
 F 3 "" H 1250 7300 50  0000 C CNN
 	1    1250 7300
@@ -234,7 +234,7 @@ L CONN_01X05 P2
 U 1 1 58A2038D
 P 2300 7350
 F 0 "P2" H 2300 7650 50  0000 C CNN
-F 1 "CONN_SW/MOT" V 2400 7350 50  0000 C CNN
+F 1 "CONN_SW" V 2400 7350 50  0000 C CNN
 F 2 "horizontal-cable-lentry-1317:SIP-5_1317" H 2300 7350 50  0001 C CNN
 F 3 "" H 2300 7350 50  0000 C CNN
 	1    2300 7350
@@ -521,7 +521,7 @@ Connection ~ 9800 4300
 Wire Wire Line
 	9700 5000 10150 5000
 Wire Wire Line
-	9800 4800 9800 5200
+	9800 4750 9800 5200
 Wire Wire Line
 	9800 5200 9700 5200
 Wire Wire Line
@@ -530,24 +530,20 @@ Connection ~ 9800 5100
 Wire Wire Line
 	7850 5000 8300 5000
 Wire Wire Line
-	8200 4800 8200 5200
+	8200 4750 8200 5200
 Wire Wire Line
 	8200 5200 8300 5200
 Wire Wire Line
 	8300 5100 8200 5100
 Connection ~ 8200 5100
-Wire Wire Line
-	7850 4200 7850 5000
 Connection ~ 8200 5000
 Wire Wire Line
 	9700 4200 10350 4200
-Wire Wire Line
-	10150 5000 10150 4200
 Connection ~ 9800 5000
 Wire Wire Line
 	9700 5300 10350 5300
 Wire Wire Line
-	8300 5300 7650 5300
+	7650 5300 8300 5300
 Wire Wire Line
 	7050 5600 8300 5600
 Wire Wire Line
@@ -966,8 +962,6 @@ Connection ~ 1650 4300
 Connection ~ 1950 4300
 Text Label 2000 4900 2    60   ~ 0
 EN_DRIVER
-NoConn ~ 1450 2050
-NoConn ~ 2100 7550
 NoConn ~ 1050 7300
 Wire Wire Line
 	4000 4050 4000 4450
@@ -1075,4 +1069,35 @@ Connection ~ 6400 7150
 Wire Wire Line
 	8800 1550 9000 1550
 Connection ~ 8850 1550
+Wire Wire Line
+	9000 5250 9000 5800
+Wire Wire Line
+	8200 5250 9800 5250
+Wire Wire Line
+	8200 5250 8200 5300
+Connection ~ 8200 5300
+Wire Wire Line
+	9800 5250 9800 5300
+Connection ~ 9800 5300
+Connection ~ 9000 5250
+Wire Wire Line
+	8900 4100 8900 4750
+Wire Wire Line
+	8900 4750 8200 4750
+Connection ~ 8200 4800
+Wire Wire Line
+	9100 4100 9100 4750
+Wire Wire Line
+	9100 4750 9800 4750
+Connection ~ 9800 4800
+Wire Wire Line
+	10150 5000 10150 4200
+Wire Wire Line
+	7850 4200 7850 5000
+Wire Wire Line
+	1450 2050 1350 2050
+Text Label 1350 2050 2    60   ~ 0
+TX
+Text Label 2100 7550 2    60   ~ 0
+TX
 $EndSCHEMATC
