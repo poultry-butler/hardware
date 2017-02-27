@@ -137,11 +137,11 @@ F 3 "" H 8850 1850 50  0000 C CNN
 	1    8850 1850
 	1    0    0    -1  
 $EndComp
-Text Label 1050 7100 2    60   ~ 0
+Text Label 1050 7500 2    60   ~ 0
 BATT+
-Text Label 2950 7150 2    60   ~ 0
+Text Label 2950 7550 2    60   ~ 0
 SCL
-Text Label 2950 7250 2    60   ~ 0
+Text Label 2950 7450 2    60   ~ 0
 SDA
 Text Label 2100 7350 2    60   ~ 0
 SWITCH_A
@@ -202,21 +202,21 @@ F 3 "" H 6100 7000 50  0000 C CNN
 	1    6100 7000
 	1    0    0    -1  
 $EndComp
-Text Label 1050 7200 2    60   ~ 0
-BATT-
-Text Label 2950 7450 2    60   ~ 0
-GND
-Text Label 2950 7550 2    60   ~ 0
-SER_3V3
-Text Label 1050 7500 2    60   ~ 0
-MOT_B
 Text Label 1050 7400 2    60   ~ 0
-MOT_A
-Text Label 2100 7150 2    60   ~ 0
-SW_V+
-Text Label 2100 7250 2    60   ~ 0
+BATT-
+Text Label 2950 7250 2    60   ~ 0
 GND
+Text Label 2950 7150 2    60   ~ 0
+SER_3V3
+Text Label 1050 7100 2    60   ~ 0
+MOT_B
+Text Label 1050 7200 2    60   ~ 0
+MOT_A
+Text Label 2100 7550 2    60   ~ 0
+SW_V+
 Text Label 2100 7450 2    60   ~ 0
+GND
+Text Label 2100 7250 2    60   ~ 0
 SWITCH_B
 $Comp
 L CONN_01X05 P1
@@ -376,7 +376,7 @@ U 1 1 5874C844
 P 1950 1700
 F 0 "U1" H 1950 2200 60  0000 C CNN
 F 1 "WeMos_mini" H 1950 1200 60  0000 C CNN
-F 2 "wemos_d1_mini:D1_mini_board" H 2500 1000 60  0001 C CNN
+F 2 "wemos_d1_mini:Wemos-D1-mini" H 2500 1000 60  0001 C CNN
 F 3 "" H 2500 1000 60  0000 C CNN
 	1    1950 1700
 	1    0    0    -1  
@@ -1098,6 +1098,77 @@ Wire Wire Line
 	1450 2050 1350 2050
 Text Label 1350 2050 2    60   ~ 0
 TX
-Text Label 2100 7550 2    60   ~ 0
+Text Label 2100 7150 2    60   ~ 0
 TX
+$Comp
+L CONN_01X01 J1
+U 1 1 58B416BC
+P 1700 6150
+F 0 "J1" H 1800 6150 50  0000 L CNN
+F 1 "CONN_01X01" H 1500 6250 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 50  3250 50  0001 C CNN
+F 3 "" H 50  3250 50  0001 C CNN
+	1    1700 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 J2
+U 1 1 58B420C8
+P 1700 6350
+F 0 "J2" H 1800 6350 50  0000 L CNN
+F 1 "CONN_01X01" H 1500 6450 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 50  3450 50  0001 C CNN
+F 3 "" H 50  3450 50  0001 C CNN
+	1    1700 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 J3
+U 1 1 58B421B6
+P 1200 6150
+F 0 "J3" H 1300 6150 50  0000 C CNN
+F 1 "CONN_01X01" H 1250 6050 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H -450 3250 50  0001 C CNN
+F 3 "" H -450 3250 50  0001 C CNN
+	1    1200 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 J4
+U 1 1 58B421BC
+P 1200 6350
+F 0 "J4" H 1300 6350 50  0000 C CNN
+F 1 "CONN_01X01" H 1250 6250 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H -450 3450 50  0001 C CNN
+F 3 "" H -450 3450 50  0001 C CNN
+	1    1200 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 58B42AB2
+P 1450 6400
+F 0 "#PWR018" H -450 -300 50  0001 C CNN
+F 1 "GND" H 1455 6227 50  0000 C CNN
+F 2 "" H -450 -50 50  0001 C CNN
+F 3 "" H -450 -50 50  0001 C CNN
+	1    1450 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 6150 1500 6150
+Wire Wire Line
+	1400 6350 1500 6350
+Wire Wire Line
+	1450 6150 1450 6400
+Connection ~ 1450 6350
+Connection ~ 1450 6150
+Wire Notes Line
+	2050 5950 2050 6650
+Wire Notes Line
+	2050 6650 850  6650
+Wire Notes Line
+	850  5950 2050 5950
+Wire Notes Line
+	850  6650 850  5950
 $EndSCHEMATC
