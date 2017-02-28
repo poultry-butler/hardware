@@ -7,5 +7,5 @@ It's capabilites are:
   * I²C, 1Wire bus for arbitrary sensors and 
   * two ports for proximity sensors.
 
-![merge process illustration](https://rawgithub.com/poultry-butler/hardware/tree/master/drafts/schema/meta/illustration1.jpg)
-![merge process illustration](https://rawgithub.com/poultry-butler/hardware/tree/master/drafts/schema/meta/illustration2.jpg)
+![merge process illustration](https://github.com/poultry-butler/hardware/blob/master/drafts/schema/meta/illustration1.jpg)
+![merge process illustration](https://github.com/poultry-butler/hardware/blob/master/drafts/schema/meta/illustration2.jpg)
