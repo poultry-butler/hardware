@@ -1,4 +1,4 @@
-update=Tue 28 Feb 2017 07:27:00 CET
+update=Tue 28 Feb 2017 10:18:04 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,9 +67,8 @@ LibName25=siliconi
 LibName26=opto
 LibName27=contrib
 LibName28=valves
-LibName29=libraries/d1_mini_kicad/library/wemos_mini
-LibName30=libraries/tle4202b
-LibName31=libraries/n9505-step-down
-LibName32=libraries/h-bridge-vhn5180a-e
-LibName33=libraries/bat54s
-LibName34=libraries/si1551dl
+LibName29=libraries/tle4202b
+LibName30=libraries/n9505-step-down
+LibName31=libraries/h-bridge-vhn5180a-e
+LibName32=libraries/bat54s
+LibName33=libraries/si1551dl

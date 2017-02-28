@@ -1,5 +1,5 @@
-(module n9595 locked (layer F.Cu) (tedit 58B53BC9)
-  (fp_text reference U2 (at -25.4 0 90) (layer F.SilkS)
+(module n9595 locked (layer F.Cu) (tedit 58B540D1)
+  (fp_text reference REF** (at -25.4 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value N9505 (at 0 0) (layer F.Fab)
