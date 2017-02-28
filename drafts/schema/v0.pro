@@ -1,4 +1,4 @@
-update=Sun 26 Feb 2017 17:27:45 CET
+update=Tue 28 Feb 2017 07:27:00 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -32,9 +32,9 @@ PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+SpiceAjustPassiveValues=0
 LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=/usr/local/share/kicad/demos
@@ -71,5 +71,5 @@ LibName29=libraries/d1_mini_kicad/library/wemos_mini
 LibName30=libraries/tle4202b
 LibName31=libraries/n9505-step-down
 LibName32=libraries/h-bridge-vhn5180a-e
-LibName33=libraries/SI1551DL
-LibName34=libraries/bat54s
+LibName33=libraries/bat54s
+LibName34=libraries/si1551dl

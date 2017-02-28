@@ -31,9 +31,8 @@ LIBS:wemos_mini
 LIBS:tle4202b
 LIBS:n9505-step-down
 LIBS:h-bridge-vhn5180a-e
-LIBS:SI1551DL
 LIBS:bat54s
-LIBS:v0-cache
+LIBS:si1551dl
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -259,7 +258,7 @@ U 1 1 58A23F29
 P 9000 4950
 F 0 "U3" H 8600 6000 60  0000 C CNN
 F 1 "VHN5180A-E" V 9000 4950 60  0000 C CNN
-F 2 "PowerSSO-36-TP:PowerSOIC-36" H 9000 3800 60  0001 C CNN
+F 2 "power-sso-36-tp:PowerSOIC-36" H 9000 3800 60  0001 C CNN
 F 3 "" H 9000 3800 60  0001 C CNN
 	1    9000 4950
 	1    0    0    -1  
@@ -376,7 +375,7 @@ U 1 1 5874C844
 P 1950 1700
 F 0 "U1" H 1950 2200 60  0000 C CNN
 F 1 "WeMos_mini" H 1950 1200 60  0000 C CNN
-F 2 "wemos_d1_mini:Wemos-D1-mini" H 2500 1000 60  0001 C CNN
+F 2 "wemos-d1-mini:wemos-d1-mini" H 2500 1000 60  0001 C CNN
 F 3 "" H 2500 1000 60  0000 C CNN
 	1    1950 1700
 	1    0    0    -1  
@@ -442,7 +441,7 @@ U 1 1 58A29F62
 P 5400 7000
 F 0 "U2" H 5100 7300 60  0000 C CNN
 F 1 "N9505" H 5400 7000 60  0000 C CNN
-F 2 "n9505-step-down-footprint:step-down-n9505" H 5300 6750 60  0001 C CNN
+F 2 "n9505-step-down:n9595" H 5300 6750 60  0001 C CNN
 F 3 "" H 5300 6750 60  0001 C CNN
 	1    5400 7000
 	1    0    0    -1  
@@ -822,7 +821,7 @@ Connection ~ 8200 4700
 Wire Wire Line
 	2550 2050 2550 1850
 Text Notes 750  850  0    60   ~ 0
-3.5V - 5.2V
+3.5V - 5.1V
 $Comp
 L R R8
 U 1 1 58A34716
@@ -839,7 +838,7 @@ BATT+
 Text Label 4500 7150 2    60   ~ 0
 BATT-
 Text Notes 5800 6500 0    60   ~ 0
-3.5V - 5.2V
+3.5V - 5.1V
 Text Label 6850 7150 0    60   ~ 0
 GND
 Connection ~ 6100 7150
@@ -1106,7 +1105,7 @@ U 1 1 58B416BC
 P 1700 6150
 F 0 "J1" H 1800 6150 50  0000 L CNN
 F 1 "CONN_01X01" H 1500 6250 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 50  3250 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 50  3250 50  0001 C CNN
 F 3 "" H 50  3250 50  0001 C CNN
 	1    1700 6150
 	1    0    0    -1  
@@ -1117,7 +1116,7 @@ U 1 1 58B420C8
 P 1700 6350
 F 0 "J2" H 1800 6350 50  0000 L CNN
 F 1 "CONN_01X01" H 1500 6450 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 50  3450 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 50  3450 50  0001 C CNN
 F 3 "" H 50  3450 50  0001 C CNN
 	1    1700 6350
 	1    0    0    -1  
@@ -1128,7 +1127,7 @@ U 1 1 58B421B6
 P 1200 6150
 F 0 "J3" H 1300 6150 50  0000 C CNN
 F 1 "CONN_01X01" H 1250 6050 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H -450 3250 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H -450 3250 50  0001 C CNN
 F 3 "" H -450 3250 50  0001 C CNN
 	1    1200 6150
 	-1   0    0    1   
@@ -1139,7 +1138,7 @@ U 1 1 58B421BC
 P 1200 6350
 F 0 "J4" H 1300 6350 50  0000 C CNN
 F 1 "CONN_01X01" H 1250 6250 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H -450 3450 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H -450 3450 50  0001 C CNN
 F 3 "" H -450 3450 50  0001 C CNN
 	1    1200 6350
 	-1   0    0    1   
