@@ -10,5 +10,5 @@ It's capabilites are:
 
 The poultry buttler applies the [WeMos D1 mini](https://www.wemos.cc/product/d1-mini.html) microcontroller which allows wireless  communication to the chicken coop's door butler.
 
-![merge process illustration](https://github.com/poultry-butler/hardware/blob/master/drafts/schema/meta/illustration1.jpg)
-![merge process illustration](https://github.com/poultry-butler/hardware/blob/master/drafts/schema/meta/illustration2.jpg)
+![merge process illustration](https://github.com/poultry-butler/hardware/blob/butler/version-0/meta/illustration1.jpg)
+![merge process illustration](https://github.com/poultry-butler/hardware/blob/butler/version-0/meta/illustration2.jpg)
