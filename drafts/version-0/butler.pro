@@ -1,4 +1,4 @@
-update=Tue 28 Feb 2017 10:18:04 CET
+update=Tue 28 Feb 2017 11:38:26 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -72,3 +72,4 @@ LibName30=libraries/n9505-step-down
 LibName31=libraries/h-bridge-vhn5180a-e
 LibName32=libraries/bat54s
 LibName33=libraries/si1551dl
+LibName34=libraries/wemos_mini

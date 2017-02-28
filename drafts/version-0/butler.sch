@@ -32,7 +32,7 @@ LIBS:n9505-step-down
 LIBS:h-bridge-vhn5180a-e
 LIBS:bat54s
 LIBS:si1551dl
-LIBS:v0-cache
+LIBS:wemos_mini
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268

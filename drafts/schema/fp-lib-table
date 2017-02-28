@@ -1,6 +1,0 @@
-(fp_lib_table
-  (lib (name n9505-step-down-footprint)(type KiCad)(uri ${KIPRJMOD}/../../kicad/libraries/n9505-step-down-footprint.pretty)(options "")(descr ""))
-  (lib (name wemos_d1_mini)(type KiCad)(uri ${KIPRJMOD}/../../kicad/libraries/wemos_d1_mini.pretty)(options "")(descr ""))
-  (lib (name PowerSSO-36-TP)(type KiCad)(uri ${KIPRJMOD}/../../kicad/libraries/PowerSSO-36-TP.pretty)(options "")(descr ""))
-  (lib (name horizontal-cable-lentry-1317)(type KiCad)(uri ${KIPRJMOD}/../../kicad/libraries/horizontal-cable-lentry-1317.pretty)(options "")(descr ""))
-)
