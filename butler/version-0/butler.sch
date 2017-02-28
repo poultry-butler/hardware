@@ -375,7 +375,7 @@ U 1 1 5874C844
 P 1950 1700
 F 0 "U1" H 1950 2200 60  0000 C CNN
 F 1 "WeMos_mini" H 1950 1200 60  0000 C CNN
-F 2 "wemos-d1-mini:wemos-d1-mini" H 2500 1000 60  0001 C CNN
+F 2 "wemos-d1-mini:wemos-d1-mini-with-pin-header-and-connector" H 2500 1000 60  0001 C CNN
 F 3 "" H 2500 1000 60  0000 C CNN
 	1    1950 1700
 	1    0    0    -1  
