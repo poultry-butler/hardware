@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name n9505-step-down)(type KiCad)(uri ${KIPRJMOD}/modules/n9505-step-down.pretty)(options "")(descr ""))
+  (lib (name power-sso-36-tp)(type KiCad)(uri ${KIPRJMOD}/modules/power-sso-36-tp.pretty)(options "")(descr ""))
+  (lib (name horizontal-cable-lentry-1317)(type KiCad)(uri ${KIPRJMOD}/modules/horizontal-cable-lentry-1317.pretty)(options "")(descr ""))
+  (lib (name wemos-d1-mini)(type KiCad)(uri ${KIPRJMOD}/modules/wemos-d1-mini.pretty)(options "")(descr ""))
+)
